@@ -1,0 +1,15 @@
+
+<html>
+<body>
+<h1>Hello World</h1>
+<p> voce esta me aceesando , parabéns! </p>
+<p> clique em mim </p>
+<script>
+
+var a=Number.parseInt(window.prompt('entre com o primeiro número'))
+var b=Number.parseInt(window.prompt('entre com o segundo número'))
+s= a+b
+window.alert(´a soma entre {a} e {b} deu {s} ´)
+</script>
+</body>
+</html>
