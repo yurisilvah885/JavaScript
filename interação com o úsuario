@@ -1,0 +1,40 @@
+<html>
+
+
+<body>
+    <div>
+        Id="area" 
+        interaja...
+    </div>
+
+<script>
+
+var a=window.document.getelementsbyid('area')
+
+a.addeventlistener('onclick', clicar)
+a.addeventlistener('mouseenter', entrar)
+a.addeventlistener('mouseout', sair)
+
+
+function clicar(){
+    
+    a.innertext='clicou'
+    a.style.background='black'
+    }
+    
+    function entrar() {
+       a.innertext='entrou'
+       a.style.background='yellow'
+    }
+    
+    function sair() {
+        a.innertext="saiu"
+    }
+
+    
+
+    
+</script>
+
+</body>
+</html>
