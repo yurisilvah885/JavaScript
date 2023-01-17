@@ -1,0 +1,31 @@
+<html>
+<body>
+    <div>
+        id="pais"
+        <input type="name" name="txtpais" id="txtpais"  />
+        <input type="button"  value="verificar" /> onclick="confira()"
+    </div>
+<h1>PAÍSES</h1>
+
+<script>
+function confira(){
+    
+
+    var p=window.document.getelementsbyid('txtpais')
+    var pa=window.document.getelementsbyid('pais')
+    var na= (txt.nac)
+    nac.inner.HTML=<p>´ seu país é ${pais}´
+    
+    if (value.pais== EUA){
+        pa.innerHTML +=´Estrangeiro´
+    }
+    else {
+        pa.innerHTML  +=´Brasileiro´
+    }
+    
+    
+}
+    
+</script>
+</body>
+</html>
