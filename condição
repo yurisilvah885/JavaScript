@@ -1,0 +1,31 @@
+<html>
+<body>
+    <div>  id = "res"</div>
+    
+    
+<h1>SISTEMAS DE SEGURANÇA</h1>
+
+ Sua velocidade atual é: <input type="number" name="txtvel" id="txtvel"  />
+input
+<input type="button" value="verificar" />
+
+<script>
+    
+    function calcular () {
+    var txtv=window.document.getelementsbyid('txtvel')
+    var vel=number(value.txtv)
+    var res = window.document.getelementsbyid('res')
+    inner.HTML='sua velocidade atual é ${vel}' 
+        
+        if (vel>60){
+            res.innerHTML+=´Voce esta multado´
+            
+        }
+        
+    }
+    
+</script>
+</body>
+
+
+</html>
