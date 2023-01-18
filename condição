@@ -7,7 +7,7 @@
 
  Sua velocidade atual é: <input type="number" name="txtvel" id="txtvel"  />
 input
-<input type="button" value="verificar" />
+<input type="button" value="verificar" onclick="calcular()" /> 
 
 <script>
     
@@ -15,7 +15,7 @@ input
     var txtv=window.document.getelementsbyid('txtvel')
     var vel=number(value.txtv)
     var res = window.document.getelementsbyid('res')
-    inner.HTML='sua velocidade atual é ${vel}' 
+    res.inner.HTML='sua velocidade atual é ${vel}' 
         
         if (vel>60){
             res.innerHTML+=´Voce esta multado´
