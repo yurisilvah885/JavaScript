@@ -1,0 +1,7 @@
+var amigo= {nome:'yuri', sexo:'M', peso:75.4, engordar(p){
+    console.log('engordou')
+    this.peso+=p
+
+}}
+amigo.engordar(2)
+console.log(`o ${amigo.nome} pesa ${amigo.peso} kg`)
