@@ -1,0 +1,11 @@
+Class Veiculo{
+rodas=4
+mover(direcao) {}
+virar(direcao){}
+}
+
+Class moto extends Veiculo{
+constructor () {
+super()
+this.rodas=2 }
+}
