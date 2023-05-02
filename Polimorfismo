@@ -1,0 +1,11 @@
+Class Atleta() {
+peso;
+categoria;
+constructor(peso){
+this.peso
+}
+
+Class Lutador extends Atleta{
+constructor (peso)
+super(peso)
+}
